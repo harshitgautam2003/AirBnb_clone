@@ -1,0 +1,75 @@
+body{
+  margin:0%;
+  font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.air-bnb{
+  justify-self: left;
+  width: 95%;
+  height: 40px;
+  padding: 20px 36px;
+  box-shadow: 0px 3px 7.5px rgba(15, 15, 15, 0.1);
+  margin-bottom: 50px;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+.hero>img{
+  width: 800px;
+  align-self: center;
+}
+.hero > h1 {
+  font-size: 2.2rem;
+  padding-left:40px;
+  margin: 0%;
+  margin-top: 10px;
+}
+.hero>p{
+  font-size: larger;
+  padding-left: 40px;
+  margin: 0%;
+}
+.card{
+  width:200px;
+  margin: 30px 0px 10px 30px;
+  padding-left: 3px;
+  font-size: 0.9rem;
+  flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column;
+    position: relative;
+}
+.card>img{
+  width: 100%;
+}
+.rating{
+  display: flex;
+  margin: 0%;
+}
+.rating>img{
+  height:17px;
+  width:20px;
+  align-self:center;
+  margin-right: 2px;
+}
+.rating>p{
+  margin: 2px;
+}
+.descrip,.price{
+  margin: 2px;
+}
+.all-cards{
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-evenly;
+ 
+}
+.box{
+  position: absolute;
+  margin:3px 0 0 7px;
+  background-color: rgb(246, 248, 248);
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
